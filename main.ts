@@ -18,7 +18,7 @@ controller.moveSprite(FlamingFighter)
 scene.cameraFollowSprite(FlamingFighter)
 forever(function () {
     for (let index = 0; index < 2; index++) {
-        music.playMelody("A F E F D G E F ", 120)
+        music.playMelody("E F G C C5 B A G ", 120)
     }
     for (let index = 0; index < 2; index++) {
         music.playMelody("E B C5 A B G A F ", 120)
