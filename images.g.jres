@@ -24,6 +24,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Flaming Fighter - facing backwards"
     },
+    "bM3{plxDKy{r~gPCkA?": {
+        "data": "hwQQABAAAAAAAAAAwPwPAAAAAABsd/fMAAAAwHfMdsEAAABsd8Z/zAAAAHx3ZnbPAAAAfHdmds8AAAB8d8Z/wQAAAHx3zHbMAMzMbHd3d8fAbGbMd3d3xsB3ZsZsd2fPfHdmZsb8/8Z8x8xmZmZmxnwMwGxmZmYMbAwAzGxmxgzMAAAAzMwMAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Demon Snake"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",

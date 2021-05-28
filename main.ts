@@ -11,7 +11,10 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     FlamingFighter.setImage(assets.image`Flaming Fighter - facing forwards`)
 })
 let FlamingFighter: Sprite = null
+info.setScore(0)
+info.setLife(3)
 FlamingFighter = sprites.create(assets.image`Flaming Fighter`, SpriteKind.Player)
+let DemonSnake = sprites.create(assets.image`Demon Snake`, SpriteKind.Player)
 FlamingFighter.setPosition(10, 180)
 tiles.setTilemap(tilemap`Level 1`)
 controller.moveSprite(FlamingFighter)
