@@ -1,6 +1,9 @@
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     FlamingFighter.setImage(assets.image`Flaming Fighter - facing backwards`)
 })
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    projectile = sprites.createProjectileFromSprite(assets.image`Knife`, FlamingFighter, 30, 30)
+})
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     FlamingFighter.setImage(assets.image`Flaming Fighter - facing left`)
 })
@@ -10,6 +13,7 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     FlamingFighter.setImage(assets.image`Flaming Fighter - facing forwards`)
 })
+let projectile: Sprite = null
 let FlamingFighter: Sprite = null
 info.setScore(0)
 info.setLife(3)

@@ -117,6 +117,25 @@ f 7 6 f 6 6 f 6 7 7 7 f 6 6 6 c
 . c 1 c f f 1 c 7 6 f 6 6 c c . 
 . c c c c c c c c c c c c . . . 
 `;
+            case "cJ{l}NuGlarPVZGEWF2t":
+            case "Knife":return img`
+. . . e . . . . . . . . . . . . 
+. . e 4 e . . . . . . . . . . . 
+. e 4 4 e . . . . . . . . . . . 
+e 4 4 4 4 e . . . . . . . . . . 
+. e e 4 4 4 e . . . . . . . . . 
+. . . e 4 e f f f . . . . . . . 
+. . . . e f f d d f . . . . . . 
+. . . . . f d f d d f . . . . . 
+. . . . . f d d f d d f . . . . 
+. . . . . . f d d f d d f . . . 
+. . . . . . . f d d f d f . . . 
+. . . . . . . . f d d f f . . . 
+. . . . . . . . . f f f f . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
         }
         return null;
     })
