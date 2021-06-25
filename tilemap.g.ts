@@ -5,25 +5,44 @@ namespace myTiles {
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "Level 1":
-            case "level1":return tiles.createTilemap(hex`100010000101010101010101010101010101010101020303030303030303030b0d0b04010109010101010101010101010101050101090102010b03030303040101010501010901090101010101010101010105010109010807070707070706010203040101090101010101010101010109010501010c010b0401010101010101090105010109010105010203030304010c010501010901010501090101010501010105010108070706010901010105010c010501010a010101010901010105010901050101020b010b03030b010b030109010501010901010101010101010101090105010108070707070707070707070807060101010101010101010101010101010101`, img`
+            case "level2":
+            case "level2":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16], TileScale.Sixteen);
+            case "Level 2":
+            case "level1":return tiles.createTilemap(hex`1000100001010101010101010101010101010101010507070707070707070707030704010106010101010101010101010101080101060105010101010105040101010801010601060101010101010801010108010106010507070707040108010101080101060106010101010101080101010801010601060101010101010801010108010106010b09090a0101090909010108010106010101010101010101010101080101060101010101010101010101010801010201010507010507010507010108010106010106010106010106010101080101060101060101060101060101010801010b09090b09090b09090b0909090a0101010101010101010101010101010101`, img`
 . . . . . . . . . . . . . . . . 
 . 2 2 2 2 2 2 2 2 2 2 . . 2 2 . 
 . 2 . . . . . . . . . . . . 2 . 
-. 2 . 2 . . 2 2 2 2 2 . . . 2 . 
-. 2 . 2 . . . . . . . . . . 2 . 
-. 2 . 2 2 2 2 2 2 2 . . 2 2 2 . 
-. 2 . . . . . . . . . . 2 . 2 . 
-. 2 . . 2 . . . . . . . 2 . 2 . 
-. 2 . . 2 . 2 2 2 2 2 . . . 2 . 
-. 2 . . 2 . 2 . . . 2 . . . 2 . 
-. . 2 2 2 . 2 . . . 2 . 2 . 2 . 
-. . . . . . 2 . . . 2 . 2 . 2 . 
-. 2 2 . . 2 2 2 . . 2 . 2 . 2 . 
-. 2 . . . . . . . . . . 2 . 2 . 
+. 2 . 2 . . . . . 2 2 . . . 2 . 
+. 2 . 2 . . . . . . 2 . . . 2 . 
+. 2 . 2 2 2 2 2 . . 2 . . . 2 . 
+. 2 . 2 . . . . . . 2 . . . 2 . 
+. 2 . 2 . . . . . . 2 . . . 2 . 
+. 2 . 2 2 2 2 . . 2 2 2 . . 2 . 
+. 2 . . . . . . . . . . . . 2 . 
+. . . . . . . . . . . . . . 2 . 
+. . . . 2 . . 2 . . 2 2 . . 2 . 
+. 2 . . 2 . . 2 . . 2 . . . 2 . 
+. 2 . . 2 . . 2 . . 2 . . . 2 . 
 . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
 . . . . . . . . . . . . . . . . 
-`, [myTiles.transparency16,sprites.dungeon.darkGroundNorthEast1,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterWest0,sprites.dungeon.doorClosedWest,sprites.dungeon.greenOuterNorth2,sprites.dungeon.greenOuterWest2,sprites.dungeon.doorClosedNorth], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.dungeon.darkGroundNorthEast1,sprites.dungeon.doorClosedWest,sprites.dungeon.doorClosedNorth,sprites.dungeon.purpleOuterNorthEast,sprites.dungeon.purpleOuterNorthWest,sprites.dungeon.purpleOuterWest0,sprites.dungeon.purpleOuterNorth0,sprites.dungeon.purpleOuterEast1,sprites.dungeon.purpleOuterSouth1,sprites.dungeon.purpleOuterSouthWest,sprites.dungeon.purpleOuterSouthEast], TileScale.Sixteen);
         }
         return null;
     })

@@ -7,6 +7,9 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     FlamingFighter.setImage(assets.image`Flaming Fighter - facing left`)
 })
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorClosedNorth, function (sprite, location) {
+    tiles.setTilemap(tilemap`Level 2`)
+})
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     FlamingFighter.setImage(assets.image`Flaming Fighter - facing right`)
 })
@@ -21,7 +24,7 @@ FlamingFighter = sprites.create(assets.image`Flaming Fighter`, SpriteKind.Player
 let DemonSnake = sprites.create(assets.image`Demon Snake`, SpriteKind.Enemy)
 DemonSnake.setPosition(randint(30, 160), randint(30, 160))
 FlamingFighter.setPosition(10, 180)
-tiles.setTilemap(tilemap`Level 1`)
+tiles.setTilemap(tilemap`Level 2`)
 controller.moveSprite(FlamingFighter)
 scene.cameraFollowSprite(FlamingFighter)
 game.onUpdate(function () {
