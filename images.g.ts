@@ -156,7 +156,7 @@ f 7 6 f 6 6 f 6 7 7 7 f 6 6 6 c
 . . . . . . . . . . . . . . . . 
 `;
             case "Zi!(7@MLBO?NrsI@JwU;":
-            case "lazer weapon":return img`
+            case "lazer weapon left":return img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
