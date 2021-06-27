@@ -34,6 +34,16 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Weapon"
     },
+    "Zi!(7@MLBO?NrsI@JwU;": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgERECAAAAABIRESEAAAAAEhERIQAAAAASEREhAAAAABIRESEAAAAAIBERAwAAAAAgExECAAAAAAATMQIAAAAAADIhAAAAAAAAMiEAAAAAAAAwMQAAAAAAADAxAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "lazer weapon"
+    },
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAiMyMAACAiMxERMQIAEBERERERAgAgIjMRETECAAAAIDIzIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Lazer Weapon down"
+    },
     "anim1": {
         "namespace": "myAnimations",
         "id": "anim1",
