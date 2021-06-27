@@ -13,6 +13,7 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorClosedNorth, function (sprite, location) {
     tiles.setTilemap(tilemap`Level 2`)
     DemonSnake.setPosition(randint(30, 160), randint(30, 160))
+    FlamingFighter.setPosition(220, 188)
 })
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     FlamingFighter.setImage(assets.image`Flaming Fighter - facing right`)
