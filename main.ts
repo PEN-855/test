@@ -21,7 +21,7 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorClosedSouth, function (sprite, location) {
     tiles.setTilemap(tilemap`Level 4`)
     DemonSnake.setPosition(randint(30, 160), randint(30, 160))
-    FlamingFighter.setPosition(180, 188)
+    FlamingFighter.setPosition(145, 210)
 })
 sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSprite) {
     DemonSnake.setPosition(randint(30, 160), randint(30, 160))
