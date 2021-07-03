@@ -13,7 +13,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorClosedNorth, function
     FlamingFighter.setPosition(220, 188)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestClosed, function (sprite, location) {
-	
+    game.over(true)
 })
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     FlamingFighter.setImage(assets.image`Flaming Fighter - facing right`)
