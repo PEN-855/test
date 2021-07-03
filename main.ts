@@ -12,8 +12,16 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorClosedNorth, function
     DemonSnake.setPosition(randint(30, 160), randint(30, 160))
     FlamingFighter.setPosition(220, 188)
 })
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestClosed, function (sprite, location) {
+	
+})
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     FlamingFighter.setImage(assets.image`Flaming Fighter - facing right`)
+})
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorClosedSouth, function (sprite, location) {
+    tiles.setTilemap(tilemap`Level 4`)
+    DemonSnake.setPosition(randint(30, 160), randint(30, 160))
+    FlamingFighter.setPosition(180, 188)
 })
 sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSprite) {
     DemonSnake.setPosition(randint(30, 160), randint(30, 160))
@@ -25,7 +33,7 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorClosedWest, function (sprite, location) {
     tiles.setTilemap(tilemap`Level 3`)
     DemonSnake.setPosition(randint(30, 160), randint(30, 160))
-    FlamingFighter.setPosition(220, 188)
+    FlamingFighter.setPosition(40, 40)
 })
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, otherSprite) {
     DemonSnake.setPosition(randint(30, 160), randint(30, 160))
